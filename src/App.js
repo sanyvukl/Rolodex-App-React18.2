@@ -8,6 +8,7 @@ const App = () => {
   const [title, setTitle] = useState("");
   const [monst, setMonst] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monst);
+  // no-console
   console.log("render");
 
   useEffect(() => {
